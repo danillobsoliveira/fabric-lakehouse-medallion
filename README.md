@@ -38,6 +38,8 @@ The project simulates a commerce scenario, starting from raw transactional data 
 
 ## 🧱 Medallion Layers
 
+![alt text](architecture/high-level-data-architecture.drawio.drawio.png)
+
 ### 🥉 Bronze Layer — Raw Ingestion
 
 **Purpose**
