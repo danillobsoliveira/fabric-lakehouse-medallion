@@ -93,6 +93,8 @@ The project simulates a commerce scenario, starting from raw transactional data 
 
 ## 🔄 Orchestration
 
+[text](screenshots)
+
 A **Fabric Data Pipeline** orchestrates the execution of notebooks in the following order:
 
 1. Synthetic dataset generation
@@ -106,26 +108,26 @@ A **Fabric Data Pipeline** orchestrates the execution of notebooks in the follow
 
 ## 📂 Repository Structure
 
+```text
 fabric-lakehouse-medallion/
-│
 ├── architecture/
-│ └── decisions.md
+│   └── decisions.md
 │
 ├── fabric/
-│ ├── dataset_generator.Notebook
-│ ├── bronze_ingestion.Notebook
-│ ├── silver_transformation.Notebook
-│ ├── gold_modeling.Notebook
-│ ├── sales_analytics_pipeline.DataPipeline
-│ └── lh_sales_analytics.Lakehouse
+│   ├── dataset_generator.Notebook
+│   ├── bronze_ingestion.Notebook
+│   ├── silver_transformation.Notebook
+│   ├── gold_modeling.Notebook
+│   ├── sales_analytics_pipeline.DataPipeline
+│   └── lh_sales_analytics.Lakehouse
 │
 ├── notes/
-│ └── dev-notes.md
+│   └── dev-notes.md
 │
 ├── screenshots/
 │
 └── README.md
-
+```
 
 ---
 
@@ -178,7 +180,7 @@ All limitations are **intentional** and aligned with the project scope.
 ## 👤 Author
 
 **Danillo Oliveira**  
-Senior Data Engineer | Lakehouse & Analytics Architecture  
+Data Engineer | Lakehouse & Analytics Architecture  
 
 This project is part of a professional portfolio demonstrating **end-to-end data engineering architecture using Microsoft Fabric**.
 
